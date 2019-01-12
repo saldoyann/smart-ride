@@ -14,9 +14,11 @@ function displayText(text){
 
     $("#inputs>form").css({"width" : "600px"});
     $("#inputs>form>div").addClass("col s6");
-    let target = $('#routes')[0];
+    $('#routes').hide();
 
-    console.log("target : " +target);
+
+
+    let target = $('#routes')[0];
     let observerOptions = {
         childList: true,
         attributes: true,
@@ -61,13 +63,21 @@ function displayText(text){
         for(var i = 0; i <miles.length; i++)
         {
             justMiles = miles[i]+''.split(' ');
-            var hk = parseFloat(justMiles[0] * 1.6).toFixed(3);
-            console.log(hk);
+            var M = justMiles[0]+justMiles[1]+justMiles[2]+justMiles[3] 
+            console.log(justMiles[0]);
+            var hk = parseFloat(M * 1.609).toFixed(3);
+            
             kms.push(hk);
         }
         
         console.log(kms);
-        console.log(miles);       
+
+        // kms.forEach(function(element){
+        //     $("#km").html(element+" kilometres <br />");
+        // })
+        
+        //kms[0] est le chemin qui est actif et du coup affiché sur la map 
+        $("#km").html(kms[0]+" kilometres <br />");    
     }
 
       let observer = new MutationObserver(callback);

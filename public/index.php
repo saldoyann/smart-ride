@@ -30,13 +30,14 @@
             </div>
           </div>
         </div>
-       <div class="col s4" id='comparer'></div>
+       <div class="col s4" id='comparer'>
+        <div id="km" class="col s12"></div>
+       </div>
     </div>
   </div>
   <div id='errors'></div>
   <div id='directions'>
     <div id='routes'></div>
-    <div id='instructions'></div>
 </div>
   <script src='../js/app.js'></script>
   </body>
