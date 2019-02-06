@@ -1,3 +1,4 @@
+var kms = []; 
 function displayText(text){
     if($("#comparer").html() == text){
       $("#comparer").html("");
@@ -27,7 +28,7 @@ function displayText(text){
       
       function callback(mutationList, observer) {
         var miles = [];
-        var kms = [];          
+                 
         mutationList.forEach((mutation) => {
             var Mutation = [];
             var mile = [];
@@ -62,12 +63,14 @@ function displayText(text){
 
         for(var i = 0; i <miles.length; i++)
         {
+            var CO2moyen = 134.431579;
             justMiles = miles[i]+''.split(' ');
             var M = justMiles[0]+justMiles[1]+justMiles[2]+justMiles[3] 
             console.log(justMiles[0]);
-            var hk = parseFloat(M * 1.609).toFixed(3);
-            
+            var hk = parseFloat(M * 1.609).toFixed(1);
+            var CO2parKM = hk * CO2moyen;
             kms.push(hk);
+            kms.push(CO2parKM);
         }
         
         console.log(kms);
@@ -86,7 +89,7 @@ function displayText(text){
   });
 
   $("#car").click(function () {
-      displayText("<h1>Voiture</h1>");
+      displayText("<img src='../images/smoke.png' alt='CO2' height='42' width='42'>              <strong>"+kms[1]+"</strong> g / km");
   });
 
   $("#tram").click(function () {
