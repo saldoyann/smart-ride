@@ -1,0 +1,9 @@
+RewriteEngine On 
+
+RewriteRule ^(.*)\/(\?.*)?$ $1$2 [R=301,L]
+
+RewriteBase /smart-ride/
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^.*$ /smart-ride/index.php [L,QSA]
