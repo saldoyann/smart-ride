@@ -222,3 +222,18 @@ nav ul a:hover{
     display:         flex;
     flex-wrap: wrap;
 }
+
+#SubmitButton {
+    padding: 2rem 1rem;
+}
+
+#SubmitButton button {
+    border-radius: 25px;
+    width: 100%;
+    color: #0099FF;
+}
+
+#email {
+    color: white;
+    border-bottom: 1px solid white !important;
+}
