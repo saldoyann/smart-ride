@@ -66,24 +66,180 @@
                             </div>
                         </div>
                         <div id="tram">
-                            <p>Distance : <span id="distance"></span></p>
-                            <p>Durée : <span id="duration"></span></p>
-                            <p>Pollution : <span id="pollution"></span></p>
+                            <h5>Transports en commun</h5>
+                            <div class="data">
+                                <p>
+                                    <img src="./assets/img/route.png">
+                                    <span>Distance : <span id="distance"></span></span>
+                                </p>
+                                <p>
+                                    <img src="./assets/img/stopwatch.png">
+                                    <span>Durée : <span id="duration"></span></span>
+                                </p>
+                                <p>
+                                    <img src="./assets/img/co2.png">
+                                    <span>Pollution : <span id="pollution"></span></span>
+                                </p>
+                            </div>
+                            <div class="pc-wrapper">
+                                <div class="pc-title-wrapper">
+                                    <span class="pc-title">Ce qu'il faut retenir :</span>
+                                </div>
+                                <div class="pc-senters">
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Emission de CO2 réduite</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Réalisez toutes vos tâches tout en vous déplaçant</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Faites des économies</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Un trafic plus fluide</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/wrong.png">
+                                    <span>Les arrêts ne sont pas desservis où bon vous semble</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         <div id="bike">
-                            <p>Distance : <span id="distance"></span></p>
-                            <p>Durée : <span id="duration"></span></p>
-                            <p>Pollution : <span id="pollution"></span></p>
+                            <h5>Vélo</h5>
+                            <div class="data">
+                                <p>
+                                <img src="./assets/img/route.png">
+                                <span>Distance : <span id="distance"></span></span>
+                                </p>
+                                <p>
+                                <img src="./assets/img/stopwatch.png">
+                                <span>Durée : <span id="duration"></span></span>
+                                </p>
+                                <p>
+                                <img src="./assets/img/co2.png">
+                                <span>Pollution : <span id="pollution"></span></span>
+                                </p>
+                            </div>
+                            <div class="pc-wrapper">
+                                <div class="pc-title-wrapper">
+                                    <span class="pc-title">Ce qu'il faut retenir :</span>
+                                </div>
+                                <div class="pc-senters">
+                                <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Pas d'émission en CO2</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Fléxibilité et rapidité</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Faites du sport en plein air</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/wrong.png">
+                                    <span>Couvrez-vous en cas d'intempéries</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         <div id="scooter">
-                            <p>Distance : <span id="distance"></span></p>
-                            <p>Durée : <span id="duration"></span></p>
-                            <p>Pollution : <span id="pollution"></span></p>
+                        <h5>Trottinette éléctrique</h5>
+                            <div class="data">
+                                <p>
+                                <img src="./assets/img/route.png">
+                                <span>Distance : <span id="distance"></span></span>
+                                </p>
+                                <p>
+                                <img src="./assets/img/stopwatch.png">
+                                <span>Durée : <span id="duration"></span></span>
+                                </p>
+                                <p>
+                                <img src="./assets/img/co2.png">
+                                <span>Pollution : <span id="pollution"></span></span>
+                                </p>
+                            </div>
+                            <div class="pc-wrapper">
+                                <div class="pc-title-wrapper">
+                                    <span class="pc-title">Ce qu'il faut retenir :</span>
+                                </div>
+                                <div class="pc-senters">
+                                <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Pas ou très peu d’émission en CO2</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Déplacez-vous souplesse et avec fun</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Transportable votre trottinette partout avec vous</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/good.png">
+                                    <span>Des trajets plus directs pour une ponctualité assurée</span>
+                                    </p>
+                                    <p>
+                                    <img src="./assets/img/wrong.png">
+                                    <span>La pluie est votre pire ennemi</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         <div id="walk">
-                            <p>Distance : <span id="distance"></span></p>
-                            <p>Durée : <span id="duration"></span></p>
-                            <p>Pollution : <span id="pollution"></span></p>
+                        <h5>À pied</h5>
+                            <div class="data">
+                                <p>
+                                <img src="./assets/img/route.png">
+                                <span>Distance : <span id="distance"></span></span>
+                                </p>
+                                <p>
+                                <img src="./assets/img/stopwatch.png">
+                                <span>Durée : <span id="duration"></span></span>
+                                </p>
+                                <p>
+                                <img src="./assets/img/co2.png">
+                                <span>Pollution : <span id="pollution"></span></span>
+                                </p>
+                            </div>
+                            <div class="pc-wrapper">
+                                <div class="pc-title-wrapper">
+                                    <span class="pc-title">Ce qu'il faut retenir :</span>
+                                </div>
+                                <div class="pc-senters">
+                                    <p>
+                                        <img src="./assets/img/good.png">
+                                        <span>Pas d’émission en CO2</span>
+                                    </p>
+                                    <p>
+                                        <img src="./assets/img/good.png">
+                                        <span>Retrouvailles avec la nature</span>
+                                    </p>
+                                    <p>
+                                        <img src="./assets/img/good.png">
+                                        <span>Améliorez votre condition physique</span>
+                                    </p>
+                                    <p>
+                                        <img src="./assets/img/good.png">
+                                        <span>Le moyen de transport le plus sûr</span>
+                                    </p>
+                                    <p>
+                                        <img src="./assets/img/wrong.png">
+                                        <span>Pas le meilleur moyen pour vous déplacer rapidement</span>
+                                    </p>
+                                    <p>
+                                        <img src="./assets/img/wrong.png">
+                                        <span>Couvrez-vous en cas d’intempéries</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
