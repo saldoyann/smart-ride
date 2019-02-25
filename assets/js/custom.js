@@ -51,7 +51,7 @@ $(function(){
             zoom: 12
         });
 
-        dataChanger('car');
+        dataChanger();
 
         let searchParams = new URLSearchParams(window.location.search)
 
@@ -86,25 +86,25 @@ $(function(){
         $('#transports #tram').click(function(e){
             e.preventDefault();
             vehicle = 'tram';
-            dataChanger('tram');
+            dataChanger();
         });
 
         $('#transports #bike').click(function(e){
             e.preventDefault();
             vehicle = 'bike';
-            dataChanger('bike');
+            dataChanger();
         });
 
         $('#transports #scooter').click(function(e){
             e.preventDefault();
             vehicle = 'scooter';
-            dataChanger('scooter');
+            dataChanger();
         });
 
         $('#transports #walk').click(function(e){
             e.preventDefault();
             vehicle = 'walk';
-            dataChanger('walk');
+            dataChanger();
         });
 
     }
@@ -233,7 +233,16 @@ function meterToCO2(meter){
         gParKm = 0;
     }
 
-    return ((meter/1000)*gParKm).toFixed(1) + " g de CO2";
+    g = ((meter/1000)*gParKm);
+
+    console.log(g);
+
+    if(g >= 1000){
+        return (g/1000).toFixed(1) + " kg de CO2";
+    }else{
+        return  g.toFixed(0)+ " g de CO2";
+    }
+
 }
 
 function loadRoute(){
@@ -268,8 +277,10 @@ function showData(brutDistance, brutDuration){
     pollution = meterToCO2(brutDistance);
     distance = meterToKm(brutDistance);
     duration = secondeToTime(brutDuration);
-    console.log(pollution);
-    console.log(distance);
-    console.log(duration);
 
+    $('#result .active').removeClass('active');
+    $('#result #'+vehicle).addClass('active');
+    $('#result #'+vehicle+' #distance').html(distance);
+    $('#result #'+vehicle+' #duration').html(duration);
+    $('#result #'+vehicle+' #pollution').html(pollution);
 }
