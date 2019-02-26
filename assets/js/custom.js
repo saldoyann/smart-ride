@@ -235,8 +235,6 @@ function meterToCO2(meter){
 
     g = ((meter/1000)*gParKm);
 
-    console.log(g);
-
     if(g >= 1000){
         return (g/1000).toFixed(1) + " kg de CO2";
     }else{

@@ -164,7 +164,7 @@ nav ul a:hover{
 }
 
 #comparator {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 #map {
@@ -237,6 +237,7 @@ nav ul a:hover{
 .pc-wrapper{
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .pc-title-wrapper{
