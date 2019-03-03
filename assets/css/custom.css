@@ -314,3 +314,25 @@ nav ul a:hover{
     color: white;
     border-bottom: 1px solid white !important;
 }
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%
+    }
+
+    .m5{
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .circle{
+        left: calc(50% - 50px);
+        -webkit-transform: translateX(calc(50% - 50px));
+        transform: translateX(calc(50% - 50px));
+    }
+
+    .pc-wrapper{
+        position: inherit;
+    }
+}

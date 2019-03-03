@@ -16,6 +16,7 @@
         <header>
             <nav class="transparent">
                 <div class="nav-wrapper">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <div class="circle"></div>
                     <a href="./" class="brand-logo">Smart-ride</a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -25,4 +26,9 @@
                     </ul>
                 </div>
             </nav>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="./comparateur">Comparateur</a></li>
+                <li><a href="http://www.mediaschool.eu/" target="_blank">Mediaschool</a></li>
+                <li><a href="./newsletter">Newsletter</a></li>
+            </ul>
         </header>

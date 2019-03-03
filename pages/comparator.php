@@ -2,7 +2,7 @@
     <?php include_once('./includes/components/search-form.php'); ?>
     <div class="container-fluid" id="comparator_chooser">
         <div class="row">
-            <div class="col s7">
+            <div class="col s12 m7">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col s12">
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s5">
+            <div class="col s12 m5">
                 <div id="result">
                     <div class="content">
                         <div id="car">

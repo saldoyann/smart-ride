@@ -29,6 +29,9 @@ $(function(){
 
     setActiveNavbarItem();
 
+    $('.sidenav').sidenav();
+
+
     $('input.autocomplete').autocomplete({
         data: {},
     });
