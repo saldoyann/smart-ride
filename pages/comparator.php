@@ -25,16 +25,16 @@
                             <h5>Voiture</h5>
                             <div class="data">
                                 <p>
+                                    <img src="./assets/img/co2.png">
+                                    <span class="pollution">Pollution : <span id="pollution"></span></span>
+                                </p>
+                                <p>
                                     <img src="./assets/img/route.png">
                                     <span>Distance : <span id="distance"></span></span>
                                 </p>
                                 <p>
                                     <img src="./assets/img/stopwatch.png">
                                     <span>Durée : <span id="duration"></span></span>
-                                </p>
-                                <p>
-                                    <img src="./assets/img/co2.png">
-                                    <span>Pollution : <span id="pollution"></span></span>
                                 </p>
                             </div>
                             <div class="pc-wrapper">
@@ -66,8 +66,12 @@
                             </div>
                         </div>
                         <div id="tram">
-                            <h5>Transports en commun</h5>
+                            <h5>Train, tram, bus, métro...</h5>
                             <div class="data">
+                                <p>
+                                    <img src="./assets/img/co2.png">
+                                    <span class="pollution">Pollution : <span id="pollution"></span></span>
+                                </p>
                                 <p>
                                     <img src="./assets/img/route.png">
                                     <span>Distance : <span id="distance"></span></span>
@@ -75,10 +79,6 @@
                                 <p>
                                     <img src="./assets/img/stopwatch.png">
                                     <span>Durée : <span id="duration"></span></span>
-                                </p>
-                                <p>
-                                    <img src="./assets/img/co2.png">
-                                    <span>Pollution : <span id="pollution"></span></span>
                                 </p>
                             </div>
                             <div class="pc-wrapper">
@@ -113,16 +113,16 @@
                             <h5>Vélo</h5>
                             <div class="data">
                                 <p>
-                                <img src="./assets/img/route.png">
-                                <span>Distance : <span id="distance"></span></span>
+                                    <img src="./assets/img/co2.png">
+                                    <span class="pollution">Pollution : <span id="pollution"></span></span>
                                 </p>
                                 <p>
-                                <img src="./assets/img/stopwatch.png">
-                                <span>Durée : <span id="duration"></span></span>
+                                    <img src="./assets/img/route.png">
+                                    <span>Distance : <span id="distance"></span></span>
                                 </p>
                                 <p>
-                                <img src="./assets/img/co2.png">
-                                <span>Pollution : <span id="pollution"></span></span>
+                                    <img src="./assets/img/stopwatch.png">
+                                    <span>Durée : <span id="duration"></span></span>
                                 </p>
                             </div>
                             <div class="pc-wrapper">
@@ -153,16 +153,16 @@
                         <h5>Trottinette éléctrique</h5>
                             <div class="data">
                                 <p>
-                                <img src="./assets/img/route.png">
-                                <span>Distance : <span id="distance"></span></span>
+                                    <img src="./assets/img/co2.png">
+                                    <span class="pollution">Pollution : <span id="pollution"></span></span>
                                 </p>
                                 <p>
-                                <img src="./assets/img/stopwatch.png">
-                                <span>Durée : <span id="duration"></span></span>
+                                    <img src="./assets/img/route.png">
+                                    <span>Distance : <span id="distance"></span></span>
                                 </p>
                                 <p>
-                                <img src="./assets/img/co2.png">
-                                <span>Pollution : <span id="pollution"></span></span>
+                                    <img src="./assets/img/stopwatch.png">
+                                    <span>Durée : <span id="duration"></span></span>
                                 </p>
                             </div>
                             <div class="pc-wrapper">
@@ -197,16 +197,16 @@
                         <h5>À pied</h5>
                             <div class="data">
                                 <p>
-                                <img src="./assets/img/route.png">
-                                <span>Distance : <span id="distance"></span></span>
+                                    <img src="./assets/img/co2.png">
+                                    <span class="pollution">Pollution : <span id="pollution"></span></span>
                                 </p>
                                 <p>
-                                <img src="./assets/img/stopwatch.png">
-                                <span>Durée : <span id="duration"></span></span>
+                                    <img src="./assets/img/route.png">
+                                    <span>Distance : <span id="distance"></span></span>
                                 </p>
                                 <p>
-                                <img src="./assets/img/co2.png">
-                                <span>Pollution : <span id="pollution"></span></span>
+                                    <img src="./assets/img/stopwatch.png">
+                                    <span>Durée : <span id="duration"></span></span>
                                 </p>
                             </div>
                             <div class="pc-wrapper">

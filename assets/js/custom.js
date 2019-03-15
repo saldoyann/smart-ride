@@ -270,7 +270,7 @@ function loadRoute(){
         $.getJSON( url, function( data ) {
             showData(data.routes[0].distance, data.routes[0].duration);
         });
-    }, 200);
+    }, 400);
 
 }
 
